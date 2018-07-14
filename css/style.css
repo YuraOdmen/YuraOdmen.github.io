@@ -16,7 +16,8 @@ dl, ol, ul, li, h3, p {
   height: 100%;
   width: 100%;
   margin: 0 auto;
-  align-items: center; }
+  align-items: center;
+  padding: 0 15px; }
 
 .header_items {
   margin-top: 18px;
