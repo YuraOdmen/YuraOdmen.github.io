@@ -67,6 +67,7 @@ dl, ol, ul, li, h3, p {
   outline: 0;
   padding: 0;
   cursor: pointer;
+  margin-right: 11px;
   border-bottom: 4px solid currentColor;
   width: 28px;
   transition: border-bottom 1s ease-in-out;
