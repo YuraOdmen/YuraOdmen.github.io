@@ -1,4 +1,4 @@
-
+//Specification
 body,html{
     margin:0;
     padding:0;
@@ -21,7 +21,6 @@ dl, ol, ul,li,h3,p {
     width:100%;
     margin: 0 auto;
     align-items: center;
-    padding: 0 15px;
 }
 // Header
 .header_items{
@@ -67,9 +66,10 @@ dl, ol, ul,li,h3,p {
     position: absolute;
     margin-top: 34px;
     background: white;
-    padding: 27px 43px;
     z-index: 999;
-    right:8%;
+    right: 0%;
+    width: 95%;
+    text-align: center;
   }
   .header_list{
       display:none;
@@ -148,7 +148,6 @@ dl, ol, ul,li,h3,p {
     }
     .news_texts{
         .news_title{
-            padding-top:19px;
             padding-right:91px;
             font-size: 21px;
             font-weight: 700;
@@ -156,7 +155,6 @@ dl, ol, ul,li,h3,p {
             font-family: tahoma;
         }
         .news_text{
-            padding-top:14px;
             font-size: 14px;
             color: #8d8d8d;
             padding-right:61px;
@@ -177,7 +175,7 @@ dl, ol, ul,li,h3,p {
 }
 
 //Info
-#info{
+.info{
     margin-top:25px;
     .info_title{
         color: #000000;
@@ -221,9 +219,14 @@ dl, ol, ul,li,h3,p {
 
     .container {
         max-width: 540px; } 
-        .info-items{
-            flex-direction: column;
-        }
+        .info {
+            .info-items{
+                flex-direction: column;
+                .info-item {
+                    margin-top: 19px;
+                }
+            }
+    }
         #news {
           .news_wrapper {
               flex-direction: column;
@@ -267,12 +270,18 @@ dl, ol, ul,li,h3,p {
             text-align: center;
         }
         }
-      .info-items{
-          flex-direction: column;
-      }
+      
       .header_nav{
         display:none;
     }
+    .info {
+        .info-items{
+            flex-direction: column;
+            .info-item {
+                margin-top: 19px;
+            }
+        }
+}
 
     }
   
@@ -320,9 +329,16 @@ dl, ol, ul,li,h3,p {
                 width: 49%;
             }
         }
-      .info-items{
-        flex-direction: row;
+        .info {
+            .info-items{
+                flex-direction: row;
+                .info-item {
+                    margin-top: 19px;
+                }
+            }
     }
+        
+      
     .header_nav{
         display:flex;
         justify-content: flex-end;
@@ -357,7 +373,15 @@ dl, ol, ul,li,h3,p {
     .burger{
         display:none;
     }
-   
+    #news .news_texts .news_info {
+        font-size: 13px;
+        color: #fefefe;
+        background-color: #da4137;
+        border: none;
+        padding: 11px 26px 8px 26px;
+        margin-top: 31px;
+        background-image: linear-gradient(to top, rgba(0, 0, 0, 0.18) 0%, rgba(0, 0, 0, 0) 100%);
+    }
     }
   
 
