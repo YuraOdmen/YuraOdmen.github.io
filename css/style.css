@@ -224,7 +224,7 @@ dl, ol, ul, li, h3, p {
     font-family: "Open Sans";
     font-size: 14px;
     font-weight: 700;
-    padding-top: 94px;
+    padding-top: 93px;
     text-transform: uppercase;
     letter-spacing: 1.96px; }
   #bottom .bottom_choice {
@@ -238,7 +238,7 @@ dl, ol, ul, li, h3, p {
     font-weight: 700;
     letter-spacing: 0.96px;
     width: 100%;
-    padding-top: 15px; }
+    padding-top: 14px; }
   #bottom .bottom_works {
     color: #fff4e1;
     font-size: 15px;
@@ -254,8 +254,8 @@ dl, ol, ul, li, h3, p {
       #bottom .bottom_works li span {
         color: white; }
   #bottom .bottom_writes {
-    padding-bottom: 90px;
-    margin-top: 40px; }
+    padding-bottom: 74px;
+    margin-top: 39px; }
     #bottom .bottom_writes .bottom_write {
       border-radius: 3px;
       background-color: #ec9f04;
@@ -264,7 +264,7 @@ dl, ol, ul, li, h3, p {
 
 @media screen and (min-width: 320px) {
   .container {
-    max-width: 290px; }
+    max-width: 284px; }
   .top_text .text_we {
     font-size: 16px;
     width: 100%; }
@@ -368,17 +368,26 @@ dl, ol, ul, li, h3, p {
   .middle_wrapper .middle_title {
     font-size: 46px;
     padding-top: 73px; }
-  #bottom .bottom_choice {
-    width: 51%;
-    font-size: 36px; }
-  #bottom .bottom_work {
-    width: 54%; }
-  #bottom .bottom_works {
-    width: 50%; }
+  #bottom {
+    background-image: url(../img/background2.png);
+    background-repeat: no-repeat;
+    background-position: right 100%;
+    background-size: contain; }
+    #bottom .bottom_choice {
+      width: 51%;
+      font-size: 19px; }
+    #bottom .bottom_work {
+      width: 49%;
+      font-size: 10px; }
+    #bottom .bottom_works {
+      width: 50%; }
   .burger {
-    display: none; } }
+    display: none; }
+  .bottom_writes {
+    padding-bottom: 44px;
+    margin-top: 39px; } }
 
-@media screen and (min-width: 1305px) {
+@media screen and (min-width: 1905px) {
   .container {
     max-width: 1200px; }
   .top_text .top_text_warp {
@@ -418,14 +427,18 @@ dl, ol, ul, li, h3, p {
   #bottom {
     background-image: url(../img/background2.png);
     background-repeat: no-repeat;
-    background-position: right 50%;
-    background-size: contain; }
+    background-position: right 100%;
+    background-size: 50%; }
     #bottom .bottom_choice {
       width: 51%;
-      font-size: 36px; }
+      font-size: 31px; }
     #bottom .bottom_work {
-      width: 54%; }
+      width: 49%;
+      font-size: 13px; }
     #bottom .bottom_works {
       width: 50%; }
+  .bottom_writes {
+    padding-bottom: 74px;
+    margin-top: 39px; }
   .burger {
     display: none; } }
